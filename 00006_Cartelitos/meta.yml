@@ -1,14 +1,14 @@
 ---
 locale: es
 tags:
-- strings
-- concatenacion
-- espacios-blancos
+  - strings
+  - concatenacion
+  - espacios-blancos
 layout: input_right
 editor: code
 type: problem
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
-choices: []
+choices: [ ]
 name: Cartelitos

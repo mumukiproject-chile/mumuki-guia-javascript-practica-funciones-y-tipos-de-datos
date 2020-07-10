@@ -1,15 +1,15 @@
 ---
 locale: es
 tags:
-- booleanos
-- funciones
-- casos-borde
-- reutilizacion
+  - booleanos
+  - funciones
+  - casos-borde
+  - reutilizacion
 layout: input_right
 editor: code
 type: problem
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
-choices: []
+choices: [ ]
 name: "¿Me conviene?"

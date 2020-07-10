@@ -1,1 +1,1 @@
-:memo: Asumí que **sólo** te vamos a pasar cartas con valores dentro de los rangos del 1 al 7 y del 10 al 12
+:memo: Considera que **sólo** te vamos a pasar cartas con valores dentro de los rangos del 1 al 7 y del 10 al 12.

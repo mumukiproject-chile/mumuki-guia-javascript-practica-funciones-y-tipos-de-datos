@@ -1,14 +1,14 @@
 ---
 expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: Not:Declares:cuantoCuesta
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: meConviene
-  inspection: Uses:cuantoCuesta
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresFunction:meConviene
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: Not:UsesIf
+  - !ruby 
+    binding: "*"
+    inspection: Not:Declares:cuantoCuesta
+  - !ruby 
+    binding: meConviene
+    inspection: Uses:cuantoCuesta
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresFunction:meConviene
+  - !ruby 
+    binding: "*"
+    inspection: Not:UsesIf

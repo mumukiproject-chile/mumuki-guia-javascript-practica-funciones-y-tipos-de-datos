@@ -1,14 +1,14 @@
 ---
 expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: perimetroTriangulo
-  inspection: HasBinding
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: areaTriangulo
-  inspection: HasBinding
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresComputationWithArity3:perimetroTriangulo
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresComputationWithArity2:areaTriangulo
+  - !ruby 
+    binding: perimetroTriangulo
+    inspection: HasBinding
+  - !ruby 
+    binding: areaTriangulo
+    inspection: HasBinding
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity3:perimetroTriangulo
+  - !ruby 
+    binding: "*"
+    inspection: DeclaresComputationWithArity2:areaTriangulo
