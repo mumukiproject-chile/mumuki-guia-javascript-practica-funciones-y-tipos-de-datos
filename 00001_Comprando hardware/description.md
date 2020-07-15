@@ -2,7 +2,7 @@ Queremos comprar un computador nuevo :computer:, y nos gustaría saber cuánto n
 
 * Los monitores cuestan $60 por cada pulgada
 * La memoria cuesta $200 por cada GB
-* El precio base estimado del resto de los componentes es de $100
+* El precio base estimado del resto de los componentes es de $1000
 
 > Escribe una función `cuantoCuesta` que tome el número de pulgadas del monitor y la cantidad de memoria y calcule el costo estimado de nuestro computador.
 > 
