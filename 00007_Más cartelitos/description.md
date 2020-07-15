@@ -11,7 +11,7 @@ Ah, ¡pero no tan rápido! Algunas veces en nuestro cartelito :name_badge: sólo
 // cartelito corto
 ム escribirCartelito("Lic.", "Tomás", "Peralta", true)
 "Lic. Peralta"
-
+>
 // cartelito largo
 ム escribirCartelito("Ing.", "Dana", "Velázquez", false)
 "Ing. Dana Velázquez"
