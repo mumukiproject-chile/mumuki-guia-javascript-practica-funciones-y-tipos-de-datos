@@ -1,8 +1,8 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: valorCantoTruco
+  binding: cuantoCuesta
   inspection: HasBinding
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Except:DoesTypeTest
+  inspection: Not:UsesIf

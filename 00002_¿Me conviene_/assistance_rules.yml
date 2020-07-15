@@ -1,7 +1,9 @@
 ---
 rules:
-  - !ruby 
-    when: !ruby
-      these_tests_failed:
-        - meConviene valida los casos borde
-    then: para que te convenga, el monitor tiene que ser de **al menos** 32 pulgadas y **al menos**  tener 8 GB de memoria; eso significa que con esos valores ya alcanza, y quizás tengas que usar el operador `>=`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - meConviene valida los casos borde
+  then: para que te convenga, el monitor tiene que ser de **al menos** 32 pulgadas
+    y **al menos**  tener 8 GB de memoria; eso significa que con esos valores ya alcanza,
+    y quizás tengas que usar el operador `>=`

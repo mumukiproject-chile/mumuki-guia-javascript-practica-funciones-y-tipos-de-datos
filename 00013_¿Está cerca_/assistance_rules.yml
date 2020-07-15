@@ -1,7 +1,7 @@
 ---
 rules:
-  - !ruby 
-    when: !ruby
-      only_these_tests_failed:
-        - " NO estaCerca(440)"
-    then: recuerda que si es exactamente 440 Hz, _no está cerca_
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    only_these_tests_failed:
+    - " NO estaCerca(440)"
+  then: recuerda que si es exactamente 440 Hz, _no está cerca_

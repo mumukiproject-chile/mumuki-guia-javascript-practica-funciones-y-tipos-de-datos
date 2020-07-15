@@ -1,8 +1,0 @@
----
-expectations:
-  - !ruby 
-    binding: cuantoCuesta
-    inspection: HasBinding
-  - !ruby 
-    binding: "*"
-    inspection: Not:UsesIf

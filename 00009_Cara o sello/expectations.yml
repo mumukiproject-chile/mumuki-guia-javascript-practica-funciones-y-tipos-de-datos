@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Not:UsesIf
+  inspection: Declares:decisionConMoneda
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:estaCerca
+  inspection: Except:DoesTypeTest
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresComputationWithArity1:estaCerca
+  binding: decisionConMoneda
+  inspection: UsesIf

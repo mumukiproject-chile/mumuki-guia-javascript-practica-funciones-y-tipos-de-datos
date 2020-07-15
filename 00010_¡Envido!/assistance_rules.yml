@@ -1,10 +1,14 @@
 ---
 rules:
-  - !ruby 
-    when: !ruby
-      these_tests_failed:
-        - valorEnvido no devuelve strings
-    then: 'cuidado con las comillas: en este ejercicio tienes que calcular el valor de envido, el cual es un _número_ (como por ejemplo el `0`), no un _string_ (como por ejemplo `"0"`)'
-  - !ruby 
-    when: submission_passed_with_warnings
-    then: no tienes que fijarte en qué pasa con las cartas del 1 al 7, ya que siempre van a devolver su mismo valor. Pero... ¿qué pasa con los números del 10 al 12? Tómate un tiempo para pensarlo.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - valorEnvido no devuelve strings
+  then: 'cuidado con las comillas: en este ejercicio tienes que calcular el valor
+    de envido, el cual es un _número_ (como por ejemplo el `0`), no un _string_ (como
+    por ejemplo `"0"`)'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: submission_passed_with_warnings
+  then: no tienes que fijarte en qué pasa con las cartas del 1 al 7, ya que siempre
+    van a devolver su mismo valor. Pero... ¿qué pasa con los números del 10 al 12?
+    Tómate un tiempo para pensarlo.

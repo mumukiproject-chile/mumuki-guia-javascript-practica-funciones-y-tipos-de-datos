@@ -1,8 +1,0 @@
----
-expectations:
-  - !ruby 
-    binding: "*"
-    inspection: Declares:escribirCartelito
-  - !ruby 
-    binding: escribirCartelito
-    inspection: UsesIf

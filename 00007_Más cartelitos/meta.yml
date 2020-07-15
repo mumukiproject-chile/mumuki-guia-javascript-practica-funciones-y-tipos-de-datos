@@ -1,11 +1,15 @@
 ---
 locale: es
-tags: [ ]
+tags:
+- strings
+- alternativa-condicional
+- concatenacion
+- modificar-codigo
 layout: input_right
 editor: code
 type: problem
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
-choices: [ ]
-name: Cara o sello
+choices: []
+name: Más cartelitos
