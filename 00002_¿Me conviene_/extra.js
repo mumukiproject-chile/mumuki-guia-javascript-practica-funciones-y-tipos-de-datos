@@ -5,5 +5,5 @@ function cuantoCuesta(pulgadas, memoria) {
     if (typeof memoria !== 'number') {
         throw new Error('el segundo argumento de cuantoCuesta debe ser un número');
     }
-    return 60 * pulgadas + 200 * memoria + 1000;
+    return 6000 * pulgadas + 20000 * memoria + 100000;
 }

@@ -1,6 +1,6 @@
 Ahora que sabemos `cuantoCuesta` un computador, queremos saber si un computador _me conviene_. Esto ocurre cuando:
 
-* sale menos de $6000, y
+* sale menos de $600000, y
 * tiene al menos un monitor de 32 pulgadas, y
 * tiene al menos 8 GB de memoria
 
