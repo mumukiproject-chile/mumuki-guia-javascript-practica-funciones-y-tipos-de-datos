@@ -13,4 +13,4 @@ false // porque el monitor es demasiado chico
 true // cumple las tres condiciones
 ```
 
-:memo: Ten en cuenta que la función `cuantoCuesta` ya se encuentra desarrollada
+> Ten en cuenta que la función `cuantoCuesta` ya se encuentra definida en la bilbioteca lista para ser utilizada.
